@@ -1,0 +1,121 @@
+<<<<<<< HEAD
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Khand', sans-serif;
+    font-size: 4;
+}
+
+body {
+    /* Evitar desplazamiento horizontal */
+    overflow-x: hidden;
+}
+
+header {
+    background: #006D77;
+    padding: 10px 0;
+    /* Espaciado interior en la parte superior e inferior del header */
+    color: #fff;
+    /* Color del texto en el header */
+    text-align: center;
+    /* Centra horizontalmente el contenido */
+    justify-content: space-between;
+    position: relative;
+    height: 7rem;
+        /* Altura del header aumentada */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #fff;
+    /* Color del texto de los enlaces */
+    font-size: 2rem;
+    /* Tamaño fuente */
+    font-weight: bolder;
+    /*Grosor de la fuente (Negrita, etc)*/
+}
+
+ul {
+    list-style: none;
+    /* Elimina los marcadores de lista */
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+    /* Espacio entre los elementos del menú */
+}
+
+.logo-item {
+    display: inline-block;
+    /* Para que el logotipo esté en línea con los elementos del menú */
+}
+
+.logo {
+    width: 6rem;
+    /* Ajusta el tamaño del logotipo según tus necesidades */
+    height: auto;
+    color: white;
+    font-size: 4rem;
+}
+
+i {
+    color: white;
+    z-index: 2;
+}
+
+.icons-container {
+    margin-top: 1rem;
+    margin-right: 25rem;
+}
+
+.icons {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.container {
+    background-color: #EDF6F9;
+    display: flex;
+    width: 100%;
+    height: 300vh;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
+}
+
+.first-text-container {
+    flex: 1;
+    text-align: left;
+}
+
+.video-container {
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+}
+
+.right-text-container {
+    flex: 1; /* Toma todo el espacio disponible en la parte derecha */
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+footer {
+    background: #006D77;
+    display: flex;
+}
+=======
+>>>>>>> 2860e58d342ca39d0e23dc83c038baa360bc920f
